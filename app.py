@@ -8,7 +8,7 @@ st.set_page_config(page_title="Dự đoán khách hàng tiềm năng", layout="c
 with open('model/flight_model.pkl', 'rb') as f:
     model, encoders = pickle.load(f)
 
-st.title("✈️ Dự đoán khả năng người dùng tham gia chuyến bay")
+st.title("Dự đoán khả năng người dùng tham gia chuyến bay")
 
 # Form nhập liệu
 with st.form("input_form"):
