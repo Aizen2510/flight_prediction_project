@@ -42,4 +42,4 @@ if submit:
 
     df_input = pd.DataFrame([input_data])
     prob = model.predict_proba(df_input)[0][1]
-    st.success(f"🚀 Xác suất người dùng sẽ tham gia chuyến bay: **{prob * 100:.2f}%**")
+    st.success(f" Xác suất người dùng sẽ tham gia chuyến bay: **{prob * 100:.2f}%**")
