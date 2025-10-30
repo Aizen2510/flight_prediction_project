@@ -32,4 +32,4 @@ os.makedirs("model", exist_ok=True)
 with open('model/flight_model.pkl', 'wb') as f:
     pickle.dump((model, label_encoders), f)
 
-print("✅ Đã huấn luyện và lưu mô hình thành công.")
+print("Đã huấn luyện và lưu mô hình thành công.")
