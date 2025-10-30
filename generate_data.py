@@ -41,4 +41,4 @@ columns = [
 
 df = pd.DataFrame(data, columns=columns)
 df.to_csv('data/flight_data.csv', index=False)
-print("✅ Đã tạo xong file flight_data.csv")
+print("Đã tạo xong file flight_data.csv")
